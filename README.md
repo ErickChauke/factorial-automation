@@ -56,7 +56,7 @@ npm run test:report
 ```
 factorial-testing/
   tests/
-    factorial-calculator.spec.js   # main test suite (23 tests)
+    factorial-calculator.spec.js   # main test suite (24 tests)
     additional-tests.spec.js       # additional tests (3 tests)
   playwright.config.js             # playwright configuration
   package.json
