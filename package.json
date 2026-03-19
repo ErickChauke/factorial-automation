@@ -1,0 +1,25 @@
+{
+  "name": "factorial-testing",
+  "version": "1.0.0",
+  "description": "Automated end-to-end tests for the Factorial Calculator app using Playwright.",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "test:report": "npx playwright show-report"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ErickChauke/factorial-automation.git"
+  },
+  "keywords": [],
+  "author": "Erick Chauke",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/ErickChauke/factorial-automation/issues"
+  },
+  "homepage": "https://github.com/ErickChauke/factorial-automation#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.58.2"
+  }
+}
